@@ -8,12 +8,15 @@ https://code.google.com/p/jqueryrotate
 # Usage
 Simply include the jquryrotate and then include the circulatetext scripts in your html document:
 
+<![CDATA[
 <script src="js/jquery.js"></script>
 <script src="js/jQueryRotateCompressed.js"></script>
 <script src="js/circulateText.js"></script>
+]]>
 
 Now you can initialize the plugin on any desired text you want. Eg :
 
+<![CDATA[
 <!-- The text you want to ciculate -->
 <div id="circulateThis">
   Ciculate Me
@@ -28,6 +31,7 @@ Now you can initialize the plugin on any desired text you want. Eg :
 <script>
 	$(".circulateText").circulateText(200);
 </script>
+]]>
 
 # Options
 CiculateText provides two options to rotate your text:
