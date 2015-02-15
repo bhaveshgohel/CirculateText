@@ -8,16 +8,16 @@ https://code.google.com/p/jqueryrotate
 # Usage
 Simply include the jquryrotate and then include the circulatetext scripts in your html document:
 
-''html
+```html
 <script src="js/jquery.js"></script>
 <script src="js/jQueryRotateCompressed.js"></script>
 <script src="js/circulateText.js"></script>
-'''
+```
 
 
 Now you can initialize the plugin on any desired text you want. Eg :
 
-'''html
+```html
 <!-- The text you want to ciculate -->
 <div id="circulateThis">
   Ciculate Me
@@ -32,13 +32,13 @@ Now you can initialize the plugin on any desired text you want. Eg :
 <script>
 	$(".circulateText").circulateText(200);
 </script>
-'''
+```
 
 # Options
 CiculateText provides two options to rotate your text:
 radius: radius of the circle the text sits on
 space: this is optional, if provided it will determine the spaces between the characters
 
-'''html
+```html
 $(".circulateText").circulateText(radius,space);
-'''
+```
