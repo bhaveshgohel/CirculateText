@@ -1,11 +1,12 @@
 # CirculateText
 CirculateText JQuery plugin to bend any text on circular shape of desired radius.
 
-# Dependency:
+### Dependency:
 Since CirculateText is a Jquery plugin so Jquery is an obvious dependency you must include. Additionally the plugin also uses the jqueryrotate to rotate the text so make sure to include that as well! You can find jqueryrotate here:
+
 https://code.google.com/p/jqueryrotate
 
-# Usage
+### Usage
 Simply include the jquryrotate and then include the circulatetext scripts in your html document:
 
 ```html
@@ -34,9 +35,11 @@ Now you can initialize the plugin on any desired text you want. Eg :
 </script>
 ```
 
-# Options
+### Options
 CiculateText provides two options to rotate your text:
+
 radius: radius of the circle the text sits on
+
 space: this is optional, if provided it will determine the spaces between the characters
 
 ```html
